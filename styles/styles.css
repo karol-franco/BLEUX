@@ -1,0 +1,368 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    display: inline-block;
+    display: flex;
+    vertical-align: top;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1e172f;
+}
+.menu ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+.menu a{
+    text-decoration: none;
+    color: gray;
+}
+.menu li{
+    color: rgb(78, 73, 73);   
+}
+.menu ul li a:hover{
+    color: white;
+}
+nav{
+    
+    height: 60px;
+}
+
+.logo{
+    background-color: aliceblue;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+.boton1{
+    background: linear-gradient(to right, rgb(63, 5, 139), aqua);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.fondo1{
+    background-image: url(/assets/images/hojasFondo.jpg) ;
+    background-size: 180%;
+    padding: 90px 50px;
+    width: 50%;
+    padding-bottom: 0%;
+    
+}
+.parte-uno{
+    display: flex;
+}
+.contenido{
+    background-color: #281d41;
+    color: white;
+    padding: 120px 100px;
+    width: 50%;
+}
+.titulo{
+    font-size: 70px;
+}
+.boton2{
+    padding: 12px 30px;
+    border: white solid 1px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+}
+.boton3{
+    padding: 12px 30px;
+    border: white solid 1px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+}
+.boton2:hover{
+    color: #ff0080;
+    background-color: white;
+}
+.boton3:hover{
+    color: #ff0080;
+    background-color: white;
+}
+.botones{
+    border: gray solid 1px;
+    width: 280px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.imagen1{
+    width: 200px;
+}
+.seccion1{
+    display: flex;
+    margin-top: 50px;
+}
+.p1{
+    width: 50%;
+}
+.p2{
+    width: 50%;
+}
+.laptop{
+    width: 500px;
+}
+.t2{
+    text-align: center;
+    color: #ff0080;
+    font-size: 40px;
+}
+.seccion01{
+    padding: 20px 70px;
+}
+.t3{
+    font-size: 3em;
+    color: #ff0080;
+}
+.seccion02{
+    background-color: rgb(2, 0, 20);
+    color: white;
+    padding: 70px;
+    text-align: center;
+}
+
+.cosa{
+    height: 150px;
+    padding: 0px 100px;
+}
+.con-cartas{
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cartas{
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+    width: 23%;
+}
+.linea1{
+    font-size: 2em;
+    background-color: rgb(231, 231, 231);
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+}
+.free{
+    font-size: 0.4em;
+}
+.lis li{
+    background-image: url(/assets/images/check-solid\ \(2\).svg);
+    list-style: none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin-top: 4px;
+}
+.lis .lik{
+    background-image: url(/assets/images/check-solid\ \(1\).svg);
+
+}
+.lis .liss1{
+    background-image: url(/assets/images/star-solid.svg);
+}
+.lis .li-1{
+    background-image: url(../assets/images/star-solid\ \(1\).svg);
+}
+.lis .liss2{
+    background-image: url(/assets/images/xmark-solid.svg);
+}
+.lis .li-2{
+    background-image: url(/assets/images/xmark-solid.svg);
+}
+.separacionCartas{
+    padding: 30px;
+}
+.boton4{
+    padding: 14px;
+    background-color: #15053a;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.boton4:hover{
+    background: linear-gradient(to right, hsla(307,52%,53%,0.763), #ff0080);
+}
+footer{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.palabra{
+    color: #ff0080;
+}
+.mark{
+    font-weight: 800;
+    color: #ff0080;
+}
+.texto2-2 li{
+    list-style: none;
+    background-image: url(/assets/images/circle-check-regular.svg);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+.texto2-2{
+    margin-top: 15px;
+}
+@media (max-width:1279px){
+    .laptop{
+        width:380px ;
+    }
+    .p2{
+        width: 45%;
+    }
+    .cartas{
+        width: 230px;
+    }
+    .con-cartas{
+        margin-top: 30px;
+    }
+}
+@media (max-width:920px){
+    .contenido{
+        padding:60px 50px ;
+    }
+    .imagen1{
+        width: 150px;
+    }
+    .p2{
+        width: 100%;
+    }
+    .laptop{
+        width: 300px;
+    }
+    .p1{
+        width: 60%;
+        margin-right: 20px;
+    }
+    .cosa{
+        padding: 0%;
+    }
+    .cartas{
+        width:50% ;
+    }
+    .con-cartas{
+        justify-content: space-between;
+    }
+    .seccion02{
+        padding: 30px;
+    }
+}
+@media (max-width:768px ){
+    .imagen1{
+        display: none;
+    }
+    nav{
+        display: block;
+        background-color: #1e172f;
+    }
+    .parte-uno{
+        margin-top: 52px;
+    }
+    .menu{
+        background-color: #1e172f;
+        margin: 0;
+        padding-left: 30px;
+        justify-content: center;
+    }
+    .logo{
+        background-color: #1e172f;
+        justify-content: center;
+        margin: 0;
+        height: 52px;
+    }
+    .fondo1{
+        background-image: none;
+    }
+    .parte-uno{
+        display: block;
+        width: 762px;
+    }
+    .boton1 {
+        margin: 5%;
+        
+    }
+
+    .menu{
+        padding: 0px;
+        display: flex;
+        
+    }
+    .seccion1{
+        display: block;
+    }
+    .seccion02{
+        display: block;
+    }
+    .con-cartas{
+        padding-top: 2em;
+        display: block;
+        align-items: center;
+
+    }
+    .cartas{
+        margin-top: 20px;
+        justify-content: center;
+        width: 400px;
+        
+    }
+}
+    @media (max-width:480px) {
+    .cartas{
+        width: 300px;
+    }        
+    .menu{
+        width: 100%;
+        
+    }
+    .menu a{
+        font-size: 1em;
+        margin-right: 0.2px;
+    }
+    .menu li{
+        margin-right: 0.5px;
+        font-size: 0.9em;
+        display: flex;
+    }
+    .menu ul li{
+        margin-right: 3px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .seccion01{
+        align-items: center;
+    }
+    .contenido{
+     padding: 5px;
+     width: 100%;
+     box-sizing: border-box;
+    }
+    .parte-uno{
+        width: 100%;
+    }
+    .fondo1{
+        width: 0;
+    }
+    .t2{
+        font-size: 2em;
+    }
+    .p1{
+        width: 100%;
+    }
+    .laptop{
+        width: 100%;
+    }
+    .cosa{
+        height: 0%;
+    }       
+}
