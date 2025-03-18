@@ -48,7 +48,7 @@ nav{
     color: white;
 }
 .fondo1{
-    background-image: url(/assets/images/hojasFondo.jpg) ;
+    background-image: url(../assets/images/hojasFondo.jpg) ;
     background-size: 180%;
     padding: 90px 50px;
     width: 50%;
@@ -157,27 +157,27 @@ nav{
     font-size: 0.4em;
 }
 .lis li{
-    background-image: url(/assets/images/check-solid\ \(2\).svg);
+    background-image: url(../assets/images/check-solid\ \(2\).svg);
     list-style: none;
     background-size: 20px;
     background-repeat: no-repeat;
     margin-top: 4px;
 }
 .lis .lik{
-    background-image: url(/assets/images/check-solid\ \(1\).svg);
+    background-image: url(../assets/images/check-solid\ \(1\).svg);
 
 }
 .lis .liss1{
-    background-image: url(/assets/images/star-solid.svg);
+    background-image: url(../assets/images/star-solid.svg);
 }
 .lis .li-1{
     background-image: url(../assets/images/star-solid\ \(1\).svg);
 }
 .lis .liss2{
-    background-image: url(/assets/images/xmark-solid.svg);
+    background-image: url(../assets/images/xmark-solid.svg);
 }
 .lis .li-2{
-    background-image: url(/assets/images/xmark-solid.svg);
+    background-image: url(../assets/images/xmark-solid.svg);
 }
 .separacionCartas{
     padding: 30px;
@@ -206,7 +206,7 @@ footer{
 }
 .texto2-2 li{
     list-style: none;
-    background-image: url(/assets/images/circle-check-regular.svg);
+    background-image: url(../assets/images/circle-check-regular.svg);
     background-repeat: no-repeat;
     padding-left: 25px;
 }
